@@ -4,6 +4,10 @@
 */
 
 function isPalindrome(str) {
+  const rev=str.split('').reverse().join('');
+  if(str != rev){
+    return false;
+  }  
   return true;
 }
 
